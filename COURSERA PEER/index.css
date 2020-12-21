@@ -1,0 +1,165 @@
+body {
+    background-color: rgba(255, 255, 255, 0.897);
+    color: black;
+    margin: 0;
+    padding: 0;
+}
+#main-header {
+    background-size: cover;
+    background-image: url(image/background.jpg);
+    background-repeat: no-repeat ;
+    height: 200px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+.container h1{
+    color: rgba(245, 245, 245, 0.76);
+    font-size: 100px;
+    padding: 30px 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: auto; 
+}
+
+#navbar {
+    background-color: rgba(0, 0, 0, 0.719);
+    text-align: left;
+    padding: 1px;
+    margin: 0px;
+}
+.navli li{
+    display: inline;
+}
+.navli a{
+    color: aliceblue;
+    text-decoration: none;
+    padding: 20px 70px;
+    text-align: center;
+    transition-duration: 0.4s;
+    font-family: 'Lucida Grande';
+}
+.navli a:hover{
+    background-color: rgba(240, 255, 255, 0.13);
+    color: antiquewhite;
+}
+.center{
+    margin: auto;
+    display: block;
+    margin-top: 50px;
+    border-radius: 10px;
+    margin-bottom: 50px;
+}
+#main-text{
+    background-image: url(image/back.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px;
+    color: rgba(240, 238, 238, 0.918);
+    height: 200x;
+    margin: 0;
+    font-family:  Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    word-spacing: 7px;
+    margin-bottom: 100px; 
+}
+section{
+    margin: 10px;
+    padding: 20px;
+    display: block;
+}
+#welcome{
+    float: left;
+    width: 65%;
+    padding: 0px 70px;
+    box-sizing: border-box;
+}
+#black{
+    float: left;
+    width: 25%;
+    background-color: #1e1f1ebd;
+    color: rgb(255, 255, 255);
+    box-sizing: border-box;
+    padding: 10px 40px;
+    height: 200px;
+    margin-bottom: 50px;
+}
+.out{
+    margin: 1% 9%;
+    text-align: justify;
+}
+.lyrics{
+    margin: 5% 0%;
+    text-align: center;
+    margin-bottom: 50vh;
+}
+.lyrics h1{
+    background-color: #9ac6ff;
+    padding: 5px;
+    margin: 0%;
+}
+
+footer{
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.822);
+    color: rgba(240, 248, 255, 0.747);
+    text-align: center;
+    height: 50px;
+    padding: 1px;
+    font-family: 'Times New Roman', Times, serif;
+    height: 250px;
+}
+.logo{
+    width: 150px;
+    height: 90px;
+    padding: 0;
+}
+.fa{
+    color: #f8b1e3;
+}
+.no{
+    color: rgb(255, 215, 243);
+    text-decoration: none;
+}
+@media (min-width:480px) and (max-width: 560px){
+    #main-header {
+        background-size: cover;
+        background-image: url(image/background.jpg);
+        background-repeat: no-repeat ;
+        height: 100px;
+        margin: 0;
+        width: 100%;
+        padding: 0;
+    }
+    .container h1{
+        display: none;
+    }
+    #navbar {
+        background-color: rgba(0, 0, 0, 0.719);
+        text-align: left;
+        padding: 1px;
+        margin: 0px;
+        height: 30px;
+        font-size: 13px;
+    }
+    .navli ul{
+        padding: 5px 30px;
+        margin: 0;
+    }
+    .navli a{
+        color: aliceblue;
+        text-decoration: none;
+        padding: 0px 5px;
+        text-align: center;
+        transition-duration: 0.4s;
+        font-family: 'Lucida Grande';
+    }
+    section{
+        margin: 1%;
+        padding: 2%;
+    }
+    #welcome{
+        width: 100%;
+    }
+    #black{
+        display: none;
+    }
+}

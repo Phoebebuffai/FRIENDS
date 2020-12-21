@@ -1,0 +1,554 @@
+body {
+    background-color: rgba(255, 255, 255, 0.897);
+    color: black;
+    margin: 0;
+    padding: 0;
+}
+#main-header {
+    background-size: cover;
+    background-image: url(image/background.jpg);
+    background-repeat: no-repeat ;
+    height: 200px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+.container h1{
+    color: rgba(245, 245, 245, 0.76);
+    font-size: 100px;
+    padding: 30px 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: auto; 
+}
+
+#navbar {
+    background-color: rgba(0, 0, 0, 0.719);
+    text-align: left;
+    padding: 1px;
+    margin: 0px;
+}
+.navli li{
+    display: inline;
+}
+.navli a{
+    color: aliceblue;
+    text-decoration: none;
+    padding: 20px 70px;
+    text-align: center;
+    transition-duration: 0.4s;
+    font-family: 'Lucida Grande';
+}
+.navli a:hover{
+    background-color: rgba(240, 255, 255, 0.13);
+    color: antiquewhite;
+}
+.qoute{
+    text-align: center;
+    background-color: black;
+    color: aliceblue;
+}
+.big{
+    font-size: 50px;
+}
+#con{
+    margin: 50px;
+    border: #bbb3b3;
+    border-style: dashed;  
+    text-align: center;
+}
+.block1{
+    background-color: rgb(255, 255, 255);
+    height: 270px;
+}
+.cname{
+    padding: 0;
+    margin: 0;
+}
+.chanpic{
+    border-radius: 500px;
+    width: 20%;
+    float: left;
+    padding: 0px 30px;
+}
+.area{
+    width: 20%;
+    float: left;
+    background-color: #fcaa4d;
+    padding: 5px 10px;
+    margin-top: 80px;
+}
+.area2{
+    width: 20%;
+    float: left;
+    background-color: rgb(176, 233, 61);
+    padding: 5px 10px;
+    margin: 40px 25px;
+}
+.area3{
+    float: left;
+    width: 20%;
+    background-color: rgb(245, 150, 245);
+    padding: 5px 10px;
+}
+#con2{
+    margin: 50px;
+    background: linear-gradient(to left,rgb(253, 253, 253), rgb(255, 95, 207));
+    text-align: center;
+    border-radius: 20px 0px 0px 20px;
+}
+.block2{
+    height: 270px;
+}
+.pname{
+    padding: 0;
+    margin: 0;
+}
+.phoebspic{
+    width: 20%;
+    float: left;
+    padding: 0px 30px;
+    height: 220px;
+}
+.p1{
+    width: 20%;
+    float: left;
+    background-color: #f8b1e3;
+    padding: 5px 10px;
+    margin: 50px 5px;
+}
+.p2{
+    width: 20%;
+    float: left;
+    background-color: rgb(247, 177, 212);
+    padding: 5px 10px;
+    margin: 50px 5px;
+}
+.p3{
+    float: left;
+    width: 20%;
+    background-color: rgb(247, 156, 242);
+    padding: 5px 10px;
+    margin: 50px 5px;
+}
+
+#con3{
+    margin: 50px;
+    border: #bbb3b3;
+    border-style: dashed;  
+    text-align: center;
+}
+.block3{
+    background-color: rgb(255, 255, 255);
+    height: 270px;
+}
+.mname{
+    padding: 0;
+    margin: 0;
+}
+.monpic{
+    border-radius: 500px;
+    width: 20%;
+    float: left;
+    padding: 0px 30px;
+    height: 230px;
+}
+.mon1{
+    width: 20%;
+    float: left;
+    background-color: #fcaa4d;
+    padding: 5px 10px;
+    margin-top: 10px;
+}
+.mon2{
+    width: 20%;
+    float: left;
+    background-color: rgb(176, 233, 61);
+    padding: 5px 10px;
+    margin: 50px 25px;
+}
+.mon3{
+    float: left;
+    width: 20%;
+    background-color: rgb(245, 150, 245);
+    padding: 5px 10px;
+    margin-top: 100px;
+}
+#con4{
+    margin: 50px;
+    background: linear-gradient(to left,rgb(253, 253, 253), rgb(0, 109, 233));
+    text-align: center;
+    border-radius: 20px 0px 0px 20px;
+}
+.block4{
+    height: 270px;
+}
+.jname{
+    padding: 0;
+    margin: 0;
+}
+.joepic{
+    width: 20%;
+    float: left;
+    padding: 0px 30px;
+    height: 220px;
+}
+.j1{
+    width: 20%;
+    float: left;
+    background-color: #9ac6ff;
+    padding: 5px 10px;
+    margin: 50px 5px;
+}
+.j2{
+    width: 20%;
+    float: left;
+    background-color: rgb(152, 145, 248);
+    padding: 5px 10px;
+    margin: 50px 5px;
+}
+.j3{
+    float: left;
+    width: 20%;
+    background-color: rgb(142, 168, 253);
+    padding: 5px 10px;
+    margin: 50px 5px;
+}
+#con5{
+    margin: 50px;
+    border: #bbb3b3;
+    border-style: dashed;  
+    text-align: center;
+}
+.block5{
+    background-color: rgb(255, 255, 255);
+    height: 270px;
+}
+.kname{
+    padding: 0;
+    margin: 0;
+}
+.kpic{
+    border-radius: 500px;
+    width: 18%;
+    float: left;
+    padding: 0px 30px;
+    height: 230px;
+}
+.k1{
+    width: 20%;
+    float: left;
+    background-color: #fcaa4d;
+    padding: 5px 10px;
+    margin-top: 10px;
+}
+.k2{
+    width: 20%;
+    float: left;
+    background-color: rgb(176, 233, 61);
+    padding: 5px 10px;
+    margin: 50px 25px;
+}
+.k3{
+    float: left;
+    width: 20%;
+    background-color: rgb(245, 150, 245);
+    padding: 5px 10px;
+    margin-top: 100px;
+}
+#con6{
+    margin: 50px;
+    background: linear-gradient(to left,rgb(253, 253, 253), rgb(53, 250, 80));
+    text-align: center;
+    border-radius: 20px 0px 0px 20px;
+}
+.block6{
+    height: 270px;
+}
+.rname{
+    padding: 0;
+    margin: 0;
+}
+.rpic{
+    width: 10%;
+    float: left;
+    padding: 0px 30px;
+    height: 240px;
+}
+.r1{
+    width: 20%;
+    float: left;
+    background-color: #9affb0;
+    padding: 5px 10px;
+    margin: 50px 5px;
+}
+.r2{
+    width: 20%;
+    float: left;
+    background-color: rgb(194, 247, 164);
+    padding: 5px 10px;
+    margin: 50px 5px;
+}
+.r3{
+    float: left;
+    width: 20%;
+    background-color: rgb(164, 250, 171);
+    padding: 5px 10px;
+    margin: 50px 5px;
+}
+
+@media (min-width: 480px ) and (max-width: 560px){
+    body {
+        background-color: rgba(255, 255, 255, 0.897);
+        color: black;
+        margin: 0;
+        padding: 0;
+    }
+    #main-header {
+        background-size: cover;
+        background-image: url(image/background.jpg);
+        background-repeat: no-repeat ;
+        height: 100px;
+        margin: 0;
+        width: 100%;
+        padding: 0;
+    }
+    .container h1{
+        display: none;
+    }
+    #navbar {
+        background-color: rgba(0, 0, 0, 0.719);
+        text-align: left;
+        padding: 1px;
+        margin: 0px;
+        height: 30px;
+        font-size: 13px;
+    }
+    .navli ul{
+        padding: 5px 30px;
+        margin: 0;
+    }
+    .navli a{
+        color: aliceblue;
+        text-decoration: none;
+        padding: 0px 5px;
+        text-align: center;
+        transition-duration: 0.4s;
+        font-family: 'Lucida Grande';
+    }
+    .qoute{
+        text-align: left;
+        background-color: black;
+        color: aliceblue;
+        height: 40px;
+        font-size: 7px;
+        margin: 0;
+        padding-left: 43px;
+    }
+    .big{
+        font-size: 30px;
+    }
+    #con{
+        margin: 30px;  
+        text-align: center;
+        width:85%;
+    }
+    .block1{
+        background-color: rgb(255, 255, 255);
+        height: 500px;
+    }
+    .cname{
+        padding: 0;
+        margin: 0;
+    }
+    .chanpic{
+        border-radius: 500px;
+        width: 40%;
+        padding: 0px 20px;
+        margin-left: 25%;
+    }
+    .area{
+        width: 50%;
+        margin: 1% 20%;
+        font-size: 15px;
+        background-color: #fcaa4d;
+        
+    }
+    .area2{
+        width: 50%;
+        margin: 1% 20%;
+        font-size: 15px;
+        background-color: rgb(176, 233, 61);
+    }
+    .area3{
+        width: 50%;
+        margin: 1% 20%;
+        font-size: 15px;
+        background-color: rgb(245, 150, 245);
+    }
+    #con2{
+        margin: 30px; 
+        text-align: center;
+        width:85%;
+        border-radius: 20px 0px 0px 20px;
+    }
+    .block2{
+        height: 500px;
+    }
+    .phoebspic{
+        width: 40%;
+        height: 30%;
+        padding: 10px 20px;
+        margin-left: 25%;
+    }
+    .p1{
+        width: 50%;
+        margin: 1% 20%;
+        font-size: 15px;
+        background-color: #f8b1e3;
+    }
+    .p2{
+        width: 50%;
+        margin: 1% 20%;;
+        font-size: 15px;
+        background-color: rgb(247, 177, 212);
+    }
+    .p3{
+        width: 50%;
+        margin: 1% 20%;
+        font-size: 15px;
+        background-color: rgb(247, 156, 242);
+    }
+    #con3{
+        margin: 30px;  
+        text-align: center;
+        width:85%;
+    }
+    .block3{
+        background-color: rgb(255, 255, 255);
+        height: 500px;
+    }
+    .monpic{
+        width: 40%;
+        padding: 0px 20px;
+        margin-left: 25%;
+        height: 32%;
+    }
+    .mon1{
+        width: 50%;
+        margin: 1% 20%;
+        font-size: 15px;
+        background-color: #fcaa4d;
+      
+    }
+    .mon2{
+        width: 50%;
+        margin: 1% 20%;
+        font-size: 15px;
+        background-color: rgb(176, 233, 61);
+    }
+    .mon3{
+        width: 50%;
+        margin: 1% 20%;
+        font-size: 15px;
+        background-color: rgb(245, 150, 245);
+    }
+    #con4{
+        margin: 30px;  
+        text-align: center;
+        width:85%;
+    }
+    .block4{
+        height: 500px;
+    }
+    .joepic{
+        width: 40%;
+        height: 30%;
+        padding: 10px 20px;
+        margin-left: 25%;
+    }
+    .j1{
+        width: 50%;
+        margin: 1% 20%;
+        font-size: 15px;
+        background-color: #9ac6ff;
+    }
+    .j2{
+        width: 50%;
+        margin: 1% 20%;
+        font-size: 15px;;
+        background-color: rgb(152, 145, 248);
+    }
+    .j3{
+        width: 50%;
+        margin: 1% 20%;
+        font-size: 15px;
+        background-color: rgb(142, 168, 253);
+    }
+    #con5{
+        margin: 30px;  
+        text-align: center;
+        width:85%;
+    }
+    .block5{
+        height: 510px;
+    }
+    .kpic{
+        border-radius: 500px;
+        width: 40%;
+        padding: 0px 20px;
+        margin-left: 25%;
+        height: 28%;
+    }
+    .k1{
+        width: 50%;
+        margin: 1% 20%;
+        font-size: 15px;
+        background-color: #fcaa4d;
+    }
+    .k2{
+        width: 50%;
+        margin: 1% 20%;
+        font-size: 15px;
+        background-color: rgb(176, 233, 61);
+    }
+    .k3{
+        width: 50%;
+        margin: 1% 20%;
+        font-size: 15px;
+        background-color: rgb(245, 150, 245);
+    }
+    #con6{
+        margin: 30px;  
+        text-align: center;
+        width:85%;
+    }
+    .block6{
+        height: 500px;
+    }
+    .rpic{
+        width: 40%;
+        height: 30%;
+        padding: 10px 20px;
+        margin-left: 25%;
+    }
+    .r1{
+        width: 50%;
+        margin: 1% 20%;
+        font-size: 15px;
+        background-color: #9affb0;
+    }
+    .r2{
+        width: 50%;
+        margin: 1% 20%;
+        font-size: 15px;
+        background-color: rgb(194, 247, 164);
+    }
+    .r3{
+        width: 50%;
+        margin: 1% 20%;
+        font-size: 15px;
+        background-color: rgb(164, 250, 171);
+    }
+
+    
+}
